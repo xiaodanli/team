@@ -29,6 +29,7 @@ body {
 .con {
     width: 100%;
     flex: 1;
+    overflow: auto;
 }
 
 .icon-left {
@@ -47,4 +48,10 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.con li {
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid gray;
 }
